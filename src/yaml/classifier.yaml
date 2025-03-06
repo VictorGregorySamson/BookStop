@@ -1,0 +1,38 @@
+tasks:
+  recommendation:
+    - recommend
+    - suggest
+    - good book
+    - any book
+  available:
+    - available
+    - in stock
+    - do you have
+    - availability
+  borrow:
+    - borrow
+    - lend
+    - can I get
+    - check out
+    - issue book
+  return:
+    - return
+    - give back
+    - bring back
+    - returning
+    - drop off
+  talk:
+    - thoughts
+    - discussion
+    - talk about
+    - opinions
+    - review
+  history:
+    - transaction
+    - checkout history
+    - past borrow
+    - borrow history
+  token:
+    - token
+    - consumption
+    - cost
