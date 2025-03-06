@@ -5,7 +5,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 from src.style.styles import CSS_STYLE  # Import the CSS styles
-from src.core.chatbot import chatbot  # Import chatbot instance
+#from src.core.chatbot import chatbot  # Import chatbot instance
 
 # Cloudstaff branding
 CLOUDSTAFF_URL = "https://www.cloudstaff.com"
@@ -28,7 +28,7 @@ session_id = "user1_session"
 def respond(message, chat_history):
     # Call book_task_pipeline with the required parameters:
     response = requests.post(
-                "http://localhost:8000/chat",
+                "https://7705-122-52-133-200.ngrok-free.app/chat",
                 json={
                     'query': message,
                     'session_id': session_id,

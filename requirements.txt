@@ -11,6 +11,7 @@ python-dotenv
 langchain-openai
 langchain-anthropic
 langchain-google-genai
+langchain_google_firestore
 gradio
 firestore
 tiktoken
@@ -23,3 +24,4 @@ tavily-python
 langchain_community
 faiss
 langchain-chroma
+gradio
